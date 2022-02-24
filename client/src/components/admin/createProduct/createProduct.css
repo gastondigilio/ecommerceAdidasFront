@@ -1,0 +1,71 @@
+.createProduct {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border: 0;
+  border-radius: 10px;
+  width: 50%;
+  height: 60%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  border-radius: 44px;
+  background: #e0e0e0;
+  box-shadow: -10px 10px 16px #c3c3c3, 10px -10px 16px #fdfdfd;
+  margin-top: 50px;
+  border: 2px solid rgb(53, 134, 226);
+}
+
+.form-inputs {
+  display: flex;
+  flex-direction: column;
+  align-content: space-evenly;
+}
+
+.form-inputs input {
+  background: rgb(236, 236, 236);
+  color: black;
+  width: 90%;
+  height: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+
+.form-inputs textarea {
+  background: rgb(236, 236, 236);
+  color: white;
+  width: 90%;
+  height: 40px;
+  border: 1px solid rgb(248, 237, 237);
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+  resize: none;
+}
+
+.crear-categoria {
+  width: 30%;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: transparent;
+  color: #111;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.error {
+  color: red;
+}
+
+.container-img {
+  display: flex;
+  margin: 10px;
+}
+
+.container-img img {
+  margin-left: 10px;
+}
